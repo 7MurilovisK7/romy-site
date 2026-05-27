@@ -296,6 +296,7 @@ footer{background:#050505;border-top:1px solid rgba(201,168,76,.2);padding:60px 
   transition:width .2s,height .2s,opacity .2s;
 }
 a:hover ~ #cursor-ring,button:hover ~ #cursor-ring{width:44px;height:44px;}
+@media(pointer:coarse){*{cursor:auto!important}#cursor-ring{display:none!important}}
 ::-webkit-scrollbar{display:none}
 *{scrollbar-width:none;-ms-overflow-style:none}
 
