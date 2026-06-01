@@ -176,7 +176,7 @@ button{font-family:var(--font);border:none;background:none}
 @keyframes orb-txt{0%{opacity:.6;transform:translateY(-50%) scale(1)}100%{opacity:1;transform:translateY(-50%) scale(1.12)}}
 .sobre-txt-col::after{content:'';position:absolute;right:24px;top:50%;transform:translateY(-50%);width:36px;height:140px;background:repeating-linear-gradient(90deg,rgba(201,168,76,.1) 0,rgba(201,168,76,.1) 2px,transparent 2px,transparent 12px);pointer-events:none}
 
-.sobre-name{font-size:clamp(32px,3.2vw,48px);font-weight:800;letter-spacing:-.04em;line-height:1.1;margin-bottom:24px;margin-top:16px;position:relative;z-index:1}
+.sobre-name{font-size:clamp(22px,2.8vw,48px);font-weight:800;letter-spacing:-.04em;line-height:1.1;margin-bottom:24px;margin-top:16px;position:relative;z-index:1;white-space:nowrap}
 .sobre-bio{font-size:15px;font-weight:300;color:var(--w6);line-height:1.85;margin-bottom:16px;position:relative;z-index:1}
 .sobre-hl{font-size:clamp(18px,2vw,24px);font-weight:700;letter-spacing:-.02em;margin:28px 0;position:relative;z-index:1}
 .sobre-oab{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(201,168,76,.3);padding:8px 20px;font-size:11px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);width:fit-content;margin-top:8px;position:relative;z-index:1}
@@ -407,7 +407,7 @@ a:hover ~ #cursor-ring,button:hover ~ #cursor-ring{width:44px;height:44px;}
   .sobre-img-col { min-height: 260px; }
   .sobre-img-col img { clip-path: none; }
   .sobre-txt-col { padding: 36px 22px; }
-  .sobre-name { font-size: 26px; }
+  .sobre-name { font-size: clamp(18px, 5vw, 26px); }
 
   /* DIFERENCIAIS: 1 coluna */
   .dif-grid { grid-template-columns: 1fr; }
@@ -588,7 +588,7 @@ a:hover ~ #cursor-ring,button:hover ~ #cursor-ring{width:44px;height:44px;}
     </div>
     <div class="sobre-txt-col rv">
       <span class="lbl">Sobre</span>
-      <h2 class="sobre-name">Dra. Romy<br>Schneider</h2>
+      <h2 class="sobre-name">Dra. Romy Schneider</h2>
       <p class="sobre-bio">Advogada inscrita na OAB/DF sob o n.º 87494, com atuação focada em Direito da Família e Sucessões e Direito da Saúde. Com atendimento baseado em proximidade e escuta ativa, acompanha cada cliente de forma personalizada, traduzindo o vocabulário jurídico em informação clara e acessível.</p>
       <p class="sobre-bio">Atende presencialmente em Brasília e, de forma online, clientes de todo o Brasil — com a mesma dedicação e atenção independentemente da distância.</p>
       <p class="sobre-hl metal">"Cada caso recebe atenção completa, do início ao fim."</p>
