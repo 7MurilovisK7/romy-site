@@ -268,6 +268,10 @@ footer{background:#050505;border-top:1px solid rgba(201,168,76,.2);padding:60px 
   .sobre-txt-col{padding:56px 40px;border-left:none}
   .sobre-txt-col::after{display:none}
 }
+@media(max-width:1100px){
+  .nav-links,.btn-nav{display:none}
+  .nav-ham{display:flex}
+}
 @media(max-width:960px){
   #hero{grid-template-columns:1fr;min-height:auto}
   .hero-l{padding:130px 40px 60px}
@@ -277,8 +281,6 @@ footer{background:#050505;border-top:1px solid rgba(201,168,76,.2);padding:60px 
   .footer-grid{grid-template-columns:1fr;gap:36px}
   .footer-bot{flex-direction:column;text-align:center}
   .areas-grid{grid-template-columns:1fr}
-  .nav-links,.btn-nav{display:none}
-  .nav-ham{display:flex}
   .wrap{padding:0 24px}
   #areas,#sobre,#dif,#faq{padding:80px 0}
   #cta{padding:100px 0}
